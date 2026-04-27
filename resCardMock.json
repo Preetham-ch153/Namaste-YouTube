@@ -1,0 +1,105 @@
+{
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    "info": {
+        "id": "671928",
+        "name": "KFC",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/4/11/c977fb20-70ec-45cd-8e46-e738e6cd562a_671928.JPG",
+        "locality": "7th Block",
+        "areaName": "Koramangla",
+        "costForTwo": "₹400 for two",
+        "cuisines": [
+            "Burgers",
+            "Fast Food",
+            "Rolls & Wraps"
+        ],
+        "avgRating": 4.1,
+        "parentId": "547",
+        "avgRatingString": "4.1",
+        "totalRatingsString": "7.0K+",
+        "sla": {
+            "deliveryTime": 18,
+            "lastMileTravel": 1.2,
+            "serviceability": "SERVICEABLE",
+            "slaString": "15-20 mins",
+            "lastMileTravelString": "1.2 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "nextCloseTime": "2026-04-18 23:59:00",
+            "opened": true
+        },
+        "badges": {
+            "imageBadges": [
+                {
+                    "imageId": "android/static-assets/icons/big_rx.png",
+                    "description": "bolt!"
+                },
+                {
+                    "imageId": "brand_cards/Badges%202026/40_Best%20in%20Bolt2026.png",
+                    "description": "Best in Bolt"
+                }
+            ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+            "entityBadges": {
+                "imageBased": {
+                    "badgeObject": [
+                        {
+                            "attributes": {
+                                "description": "bolt!",
+                                "imageId": "android/static-assets/icons/big_rx.png"
+                            }
+                        },
+                        {
+                            "attributes": {
+                                "description": "Best in Bolt",
+                                "imageId": "brand_cards/Badges%202026/40_Best%20in%20Bolt2026.png",
+                                "theme": ""
+                            }
+                        }
+                    ]
+                },
+                "textBased": {},
+                "textExtendedBadges": {}
+            }
+        },
+        "aggregatedDiscountInfoV3": {
+            "header": "50% OFF",
+            "discountTag": "FLAT DEAL"
+        },
+        "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+        },
+        "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+            }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+            "aggregatedRating": {
+                "rating": "--"
+            }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+        "context": "seo-data-0776b8f7-856c-4e8f-aef3-3d5fe456e84c"
+    },
+    "cta": {
+        "link": "https://www.swiggy.com/city/bangalore/kfc-7th-block-koramangla-rest671928",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+}
