@@ -1,41 +1,42 @@
-import React, { useEffect } from 'react';
-import ReactDOM from 'react-dom/client';
+import React, { useEffect } from "react";
+import ReactDOM from "react-dom/client";
+import Header from "./components/Header";
 import Body from "./components/Body";
-import Browse from "./components/Browse";
-import { createBrowserRouter,RouterProvider } from "react-router-dom";
-import Login from "./components/Login";
 import { Provider } from "react-redux";
 import appStore from "./components/utils/appStore";
-
-
-const AppLayout = () => {
-
-    return (
-      <div className="app">
-        <Provider store={appStore}>
-        <RouterProvider router={appRouter} />
-        </Provider>
-      </div>
-    )
-}
- 
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import MainContainer from "./components/MainContainer";
+import WatchPage from "./components/WatchPage";
 
 const appRouter = createBrowserRouter([
-{
-    path:"/",
+  {
+    path: "/",
     element: <Body />,
     children: [
       {
-        path:"/",
-        element:<Login />
+        path: "/",
+        element: <MainContainer />,
       },
       {
-        path:"/browse",
-        element:<Browse />
+        path: "/watch",
+        element: <WatchPage />,
       },
-    ]
+    ],
   },
-])
- 
-const root=ReactDOM.createRoot(document.getElementById("root"));
+]);
+
+const AppLayout = () => {
+  return (
+    <div className="app">
+      <Provider store={appStore}>
+        <Header />
+        <RouterProvider router={appRouter}>
+          <Body />
+        </RouterProvider>
+      </Provider>
+    </div>
+  );
+};
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<AppLayout />);

@@ -1,12 +1,15 @@
 import { configureStore } from "@reduxjs/toolkit";
-import userReducer from "./userSlice"; 
-import moviesReducer from "./moviesSlice";
+import appReducer from "./appSlice";
+import searchReducer from "./searchSlice";
+import chatReducer from "./chatSlice";
 
 const appStore = configureStore({
     reducer:{
-        user:userReducer,
-        movies:moviesReducer
+        app:appReducer,
+        search:searchReducer,
+        chat:chatReducer,
     }
+
 });
 
 export default appStore;

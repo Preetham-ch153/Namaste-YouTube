@@ -1,1 +1,2 @@
-#Namaste React🚀
+# NetflixGPT
+Its a Namste React project
